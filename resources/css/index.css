@@ -1,0 +1,152 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+#logo {
+    height: 110px;
+    width: 100px;
+    margin-right: 15px;
+    border-radius: 120px;
+}
+
+header h1 {
+    color: #f3b0e5;
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 90px;
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+    background-color: white;
+}
+
+header a {
+    color: darkslateblue;
+    margin: 25px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #f3b0e5;
+}
+
+main {
+    background-color: lavender;
+    padding: 30px;
+
+}
+
+#about-us {
+    padding: 200px;
+}
+
+#about-us p {
+    font-size: 25px;
+    text-align: center;
+    color: darkslateblue;
+    margin: auto;
+}
+
+#about-us h2 {
+    font-size: 50px;
+    text-align: center;
+    color: darkslateblue;
+}
+
+footer {
+    background-color: darkslateblue;
+    font-size: 13px;
+    color: white;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+address a {
+    color: lavender;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#contact-title, address {
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.border-bottom {
+    border-bottom: solid 2px white;
+    padding-bottom: 20px;
+}
+
+.social-media {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
+
+.purple-background {
+    background-color: darkslateblue;
+}
+
+/* Meet the team page  */
+
+#team-info h2 {
+    margin-bottom: 30px;
+}
+
+#team-info {
+    font-size: 25px;
+    color: darkslateblue;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.description {
+    font-size: 25px;
+    color: darkslateblue;
+}
+
+.flex {
+    display: inline-flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.outer {
+    width: 500px;
+    padding: 10px;
+  }
+
+.float {
+    padding: 20px;
+    border-radius: 100px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 0 0;
+  }
